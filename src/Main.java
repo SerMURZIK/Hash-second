@@ -9,6 +9,7 @@ public class Main {
             " Excepteur sint occaecat cupidatat non proident, sunt in culpa qui" +
             " officia deserunt" +
             " mollit anim id est laborum.";
+
     public static void main(String[] args) {
         WordsChecker wc = new WordsChecker(text, "elit");
         System.out.println(wc.hasWord(text, "Alex"));
